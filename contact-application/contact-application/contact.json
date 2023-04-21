@@ -1,0 +1,361 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Kerttu",
+                "last": "Heikkila"
+            },
+            "location": {
+                "street": {
+                    "number": 513,
+                    "name": "Pirkankatu"
+                },
+                "city": "Heinävesi",
+                "state": "Southern Ostrobothnia",
+                "country": "Finland",
+                "postcode": 45256,
+                
+            },
+            "email": "kerttu.heikkila@example.com",
+           
+            "dob": {
+                "date": "1960-10-02T04:27:48.092Z",
+                "age": 62
+            },
+           
+            "phone": "09-558-152",
+            "cell": "045-593-64-64",
+            
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/50.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg"
+            },
+            "nat": "FI"
+        },
+        {
+                    "gender": "male",
+                    "name": {
+                        "title": "Mr",
+                        "first": "Matias",
+                        "last": "Perala"
+                    },
+                    "location": {
+                        "street": {
+                            "number": 6770,
+                            "name": "Reijolankatu"
+                        },
+                        "city": "Nousiainen",
+                        "state": "Pirkanmaa",
+                        "country": "Finland",
+                        "postcode": 99212,
+                        
+                    },
+                    "email": "matias.perala@example.com",
+                    "dob": {
+                        "date": "1981-08-03T09:30:00.370Z",
+                        "age": 41
+                    },
+                    "phone": "04-267-129",
+                    "cell": "041-433-03-90",
+                    
+                    "picture": {
+                        "large": "https://randomuser.me/api/portraits/men/33.jpg",
+                        "medium": "https://randomuser.me/api/portraits/med/men/33.jpg",
+                        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/33.jpg"
+                    },
+                    "nat": "FI"
+                },
+                {
+                    "gender": "male",
+                    "name": {
+                        "title": "Mr",
+                        "first": "Saksham",
+                        "last": "Anchan"
+                    },
+                    "location": {
+                        "street": {
+                            "number": 5357,
+                            "name": "Sampige Rd"
+                        },
+                        "city": "Kakinada",
+                        "state": "Bihar",
+                        "country": "India",
+                        "postcode": 94343,
+                        
+                    },
+                    "email": "saksham.anchan@example.com",
+                    "dob": {
+                        "date": "1962-03-07T20:16:11.153Z",
+                        "age": 61
+                    },
+                    "registered": {
+                        "date": "2009-07-25T13:59:54.076Z",
+                        "age": 13
+                    },
+                    "phone": "7263180930",
+                    "cell": "7291374930",
+                    "picture": {
+                        "large": "https://randomuser.me/api/portraits/men/68.jpg",
+                        "medium": "https://randomuser.me/api/portraits/med/men/68.jpg",
+                        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg"
+                    },
+                    "nat": "IN"
+                },
+       
+                      {
+                                  "gender": "female",
+                                  "name": {
+                                      "title": "Miss",
+                                      "first": "Helmi",
+                                      "last": "Lahti"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 5493,
+                                          "name": "Itsenäisyydenkatu"
+                                      },
+                                      "city": "Urjala",
+                                      "state": "South Karelia",
+                                      "country": "Finland",
+                                      "postcode": 37680,
+                                     
+                                  },
+                                  "email": "helmi.lahti@example.com",
+                                 
+                                  "dob": {
+                                      "date": "1983-11-03T18:14:37.986Z",
+                                      "age": 39
+                                  },
+                               
+                                  "phone": "06-796-559",
+                                  "cell": "041-814-27-36",
+                                 
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/women/76.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/women/76.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/76.jpg"
+                                  },
+                                  "nat": "FI"
+                              },
+                      {
+                                  "gender": "male",
+                                  "name": {
+                                      "title": "Mr",
+                                      "first": "José Emilio",
+                                      "last": "Molina"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 1433,
+                                          "name": "Cerrada Sur Solano"
+                                      },
+                                      "city": "Col. Benito García(Zorrillo)",
+                                      "state": "Tabasco",
+                                      "country": "Mexico",
+                                      "postcode": 91688,
+                                     
+                                  },
+                                  "email": "joseemilio.molina@example.com",
+                                 
+                                  "dob": {
+                                      "date": "1950-05-06T10:27:07.667Z",
+                                      "age": 72
+                                  },
+                                
+                                  "phone": "(613) 717 2116",
+                                  "cell": "(646) 540 6130",
+                                 
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/men/35.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/men/35.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/35.jpg"
+                                  },
+                                  "nat": "MX"
+                              },
+                      {
+                                  "gender": "male",
+                                  "name": {
+                                      "title": "Mr",
+                                      "first": "Nicolai",
+                                      "last": "Nägele"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 7970,
+                                          "name": "Am Bahnhof"
+                                      },
+                                      "city": "Jever",
+                                      "state": "Rheinland-Pfalz",
+                                      "country": "Germany",
+                     
+                                  },
+                                  "email": "nicolai.nagele@example.com",
+                                 
+                                  "dob": {
+                                      "date": "1961-09-12T23:33:54.661Z",
+                                      "age": 61
+                                  },
+                               
+                                  "phone": "0410-0638984",
+                                  "cell": "0174-6820845",
+                                 
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/men/59.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/men/59.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/59.jpg"
+                                  },
+                                  "nat": "DE"
+                              },
+                      {
+                                  "gender": "female",
+                                  "name": {
+                                      "title": "Miss",
+                                      "first": "Violeta",
+                                      "last": "Janković"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 1619,
+                                          "name": "Brnjačka"
+                                      },
+                                      "city": "Topola",
+                                      "state": "Pirot",
+                                      "country": "Serbia",
+                                      "postcode": 41301,
+                                     
+                                  },
+                                  "email": "violeta.jankovic@example.com",
+                                 
+                                  "dob": {
+                                      "date": "1988-10-27T04:30:22.382Z",
+                                      "age": 34
+                                  },
+                                
+                                  "phone": "026-3661-724",
+                                  "cell": "069-4136-430",
+                                
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/women/23.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/women/23.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/23.jpg"
+                                  },
+                                  "nat": "RS"
+                              },
+                      {
+                                  "gender": "male",
+                                  "name": {
+                                      "title": "Mr",
+                                      "first": "Mohamed",
+                                      "last": "Hidalgo"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 9506,
+                                          "name": "Calle de Arganzuela"
+                                      },
+                                      "city": "Torrente",
+                                      "state": "Comunidad de Madrid",
+                                      "country": "Spain",
+                                      "postcode": 83261,
+                                    
+                                  },
+                                  "email": "mohamed.hidalgo@example.com",
+                                
+                                  "dob": {
+                                      "date": "1995-10-17T17:35:49.275Z",
+                                      "age": 27
+                                  },
+                                
+                                  "phone": "932-446-784",
+                                  "cell": "600-512-691",
+                                
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/men/45.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+                                  },
+                                  "nat": "ES"
+                              },
+                      {
+                                  "gender": "male",
+                                  "name": {
+                                      "title": "Mr",
+                                      "first": "Ivan",
+                                      "last": "Tasić"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 9829,
+                                          "name": "Đorđa Kode"
+                                      },
+                                      "city": "Bajina Bašta",
+                                      "state": "Kolubara",
+                                      "country": "Serbia",
+                                      "postcode": 97794,
+                                    
+                                  },
+                                  "email": "ivan.tasic@example.com",
+                                  
+                                  "dob": {
+                                      "date": "1986-09-04T04:27:33.553Z",
+                                      "age": 36
+                                  },
+                                
+                                  "phone": "033-8470-724",
+                                  "cell": "065-6590-035",
+                                
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/men/72.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/men/72.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/72.jpg"
+                                  },
+                                  "nat": "RS"
+                              },
+                      {
+                                  "gender": "male",
+                                  "name": {
+                                      "title": "Mr",
+                                      "first": "Francisco Javier",
+                                      "last": "Peralta"
+                                  },
+                                  "location": {
+                                      "street": {
+                                          "number": 9953,
+                                          "name": "Privada Tejada"
+                                      },
+                                      "city": "Betania",
+                                      "state": "Guerrero",
+                                      "country": "Mexico",
+                                      "postcode": 30038,
+                                     
+                                  },
+                                  "email": "franciscojavier.peralta@example.com",
+                                 
+                                  "dob": {
+                                      "date": "1989-07-06T18:55:45.355Z",
+                                      "age": 33
+                                  },
+                                 
+                                  "phone": "(606) 702 2978",
+                                  "cell": "(690) 810 6145",
+                                 
+                                  "picture": {
+                                      "large": "https://randomuser.me/api/portraits/men/80.jpg",
+                                      "medium": "https://randomuser.me/api/portraits/med/men/80.jpg",
+                                      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/80.jpg"
+                                  },
+                                  "nat": "MX"
+                              }
+        
+        
+    ],
+    "info": {
+
+        "results": 10,
+        "page": 1,
+        "version": "1.4"
+    }
+}
