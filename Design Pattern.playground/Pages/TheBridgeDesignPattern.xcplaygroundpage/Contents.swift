@@ -1,45 +1,47 @@
 //: [Previous](@previous)
 
 import Foundation
+
 // Abstraction
+
 protocol Shape {
-    func draw()
+    var color: Color {get set};
+    func draw();
+}
+// Step 2: Define the Implementor.
+protocol Color {
+    func applyColor()
+}
+// Step 3: Concrete Implementor.
+class RedColor: Color {
+    func applyColor() {
+        print("Applying red color")
+    }
 }
 
-// Implementation
-class Circle: Shape {
+// BlueColor.swift
+
+class BlueColor: Color {
+    func applyColor() {
+        print("Applying blue color")
+    }
+}
+
+class Rectangle: Shape {
+    var color: Color
+    
+    init(color: Color){
+        self.color = color
+    }
     func draw() {
-        print("Drawing a circle")
+        print("Drawing rectangle")
+        color.applyColor()
     }
+    
 }
 
-class Square: Shape {
-    func draw() {
-        print("Drawing a square")
-    }
-}
+var blue = BlueColor()
+var red = RedColor()
 
-// Bridge
-class ShapeBridge {
-    private let shape: Shape
-
-    init(shape: Shape) {
-        self.shape = shape
-    }
-
-    func draw() {
-        shape.draw()
-    }
-}
-
-// Client
-let circle = Circle()
-let square = Square()
-
-let circleBridge = ShapeBridge(shape: circle)
-let squareBridge = ShapeBridge(shape: square)
-
-circleBridge.draw() // Prints "Drawing a circle"
-squareBridge.draw() // Prints "Drawing a square"
-
-//: [Next](@next)
+var rectangle = Rectangle(color: red)
+rectangle.draw()
