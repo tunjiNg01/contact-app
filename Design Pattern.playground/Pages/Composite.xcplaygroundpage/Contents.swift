@@ -2,43 +2,68 @@
 
 import Foundation
 
-protocol Component {
-    func performOperation()
+// Component.swift
+
+protocol FileSystemComponent {
+    var name: String { get }
+    func display()
 }
 
-class Leaf: Component {
-    func performOperation() {
-        // Perform operation for the leaf object
+
+
+// File.swift
+
+class File: FileSystemComponent {
+    let name: String
+
+    init(name: String) {
+        self.name = name
+    }
+
+    func display() {
+        print("File: \(name)")
     }
 }
 
-class Composite: Component {
-    private var childComponents: [Component] = []
 
-    func addComponent(_ component: Component) {
-        childComponents.append(component)
+// Folder.swift
+
+class Folder: FileSystemComponent {
+    let name: String
+    private var components: [FileSystemComponent] = []
+
+    init(name: String) {
+        self.name = name
     }
 
-    func removeComponent(_ component: Component) {
-        childComponents.removeAll { $0 === component }
+    func add(component: FileSystemComponent) {
+        components.append(component)
     }
 
-    func performOperation() {
-        // Perform operation for the composite object
-        // This can include performing operations on child components recursively
-        for component in childComponents {
-            component.performOperation()
+    func display() {
+        print("Folder: \(name)")
+        for component in components {
+            component.display()
         }
     }
 }
 
+// main.swift
 
+let file1 = File(name: "file1.txt")
+let file2 = File(name: "file2.txt")
 
-let leaf1 = Leaf()
-let leaf2 = Leaf()
-let composite = Composite()
-composite.addComponent(leaf1)
-composite.addComponent(leaf2)
+let folder1 = Folder(name: "Folder 1")
+folder1.add(component: file1)
+folder1.add(component: file2)
 
-composite.performOperation()
+let folder2 = Folder(name: "Folder 2")
+folder2.add(component: file1)
+folder2.add(component: file2)
+
+let rootFolder = Folder(name: "Root Folder")
+rootFolder.add(component: folder1)
+rootFolder.add(component: folder2)
+
+rootFolder.display()
 
